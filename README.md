@@ -11,9 +11,9 @@
 
 ```javascript
   async user.index({
-   "nome": "Gustavo Oliveira",
+   "nome": "KoenomatachiSan",
    "idade"22,
-   "cidade" "Uberlândia, MG",
+   "cidade" "Uberlândia",
    "stacks":["NodeJS", "JAVA", "Python", "PHP"],
    "hobbies": ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
   });
