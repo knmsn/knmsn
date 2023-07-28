@@ -3,7 +3,7 @@
    "nome": "KoenomatachiSan",
    "idade"22,
    "cidade" "Uberlândia",
-   "stacks":["NodeJS", "JAVA", "Python", "PHP"],
+   "stacks":["NodeJS", "JAVA", "Python", "JavaScript"],
    "hobbies": ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
   });
 
