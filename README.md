@@ -2,7 +2,6 @@
   async user.index({
    "nome": "KoenomatachiSan",
    "idade"22,
-   "cidade" "Uberlândia",
    "stacks":["NodeJS", "JAVA", "Python", "JavaScript"],
    "hobbies": ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
   });
