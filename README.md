@@ -1,7 +1,7 @@
 ```javascript
   async user.index({
    "nome": "KoenomatachiSan",
-   "idade"22,
+   "idade"23,
    "stacks":["NodeJS", "JAVA", "Python", "JavaScript"],
    "hobbies": ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
   });
