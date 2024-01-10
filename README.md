@@ -6,6 +6,8 @@
     "NodeJS": ["ReactJS", "ReactNative", "NestJS", "Express"],
     "Java": ["Spring", "JSP"]
    }],
+   "Databases": ["DB2", "SQL Server", "Amazon RDS", "Amazon Aurora", "PostgreSQL", "MongoDB", "OracleDB"],
+   "Cloud":["AWS Amazon", "Microsoft Azure"],
    "hobbies": ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
   });
 
