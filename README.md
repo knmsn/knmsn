@@ -1,20 +1,26 @@
 ```javascript
-  async user.index({
-    nome: "Gustavo O.R",
-    idade: 23,
-    stacks: [
-      {
-        NodeJS: ["NextJs", "ReactJS", "ReactNative", "NestJS", "Express"],
-        Java: ["Spring", "JSP"]
-      }
-    ],
-    Databases: ["DB2", "SQL Server", "Amazon RDS", "Amazon Aurora", "PostgreSQL", "MongoDB", "OracleDB"],
-    Cloud: ["AWS Amazon", "Microsoft Azure"],
-    hobbies: ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
-});
+async function userIndex(req, res) {
+  try {
+    const userData = {
+      nome: "Gustavo O.R",
+      idade: 23,
+      stacks: [
+        {
+          NodeJS: ["ReactJS", "ReactNative", "NestJS", "Express"],
+          Java: ["Spring", "JSP"]
+        }
+      ],
+      Databases: ["DB2", "SQL Server", "Amazon RDS", "Amazon Aurora", "PostgreSQL", "MongoDB", "OracleDB"],
+      Cloud: ["AWS Amazon", "Microsoft Azure"],
+      hobbies: ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
+    };
 
-return response.status(201).send();
-
+    return res.status(201).json(userData);
+  } catch (error) {
+    return res.status(500).json({ error: "Internal Error" });
+  }
+}
+app.get('/api/user', userIndex);
 ```
 
 <div align="left">
