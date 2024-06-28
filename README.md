@@ -1,17 +1,20 @@
 ```javascript
   async user.index({
-   "nome": "Gustavo O.R",
-   "idade"23,
-   "stacks":[{
-    "NodeJS": ["ReactJS", "ReactNative", "NestJS", "Express"],
-    "Java": ["Spring", "JSP"]
-   }],
-   "Databases": ["DB2", "SQL Server", "Amazon RDS", "Amazon Aurora", "PostgreSQL", "MongoDB", "OracleDB"],
-   "Cloud":["AWS Amazon", "Microsoft Azure"],
-   "hobbies": ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
-  });
+    nome: "Gustavo O.R",
+    idade: 23,
+    stacks: [
+      {
+        NodeJS: ["NextJs", "ReactJS", "ReactNative", "NestJS", "Express"],
+        Java: ["Spring", "JSP"]
+      }
+    ],
+    Databases: ["DB2", "SQL Server", "Amazon RDS", "Amazon Aurora", "PostgreSQL", "MongoDB", "OracleDB"],
+    Cloud: ["AWS Amazon", "Microsoft Azure"],
+    hobbies: ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
+});
 
-  return response.status(201).send();
+return response.status(201).send();
+
 ```
 
 <div align="left">
