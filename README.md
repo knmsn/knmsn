@@ -1,26 +1,27 @@
 ```javascript
-async function userIndex(req, res) {
+async function user(req, res) {
   try {
-    const userData = {
-      nome: "Gustavo O.R",
-      idade: 23,
+    const user = {
+      name: "Gustavo O.R",
+      age: 23,
       stacks: [
         {
           NodeJS: ["ReactJS", "ReactNative", "NestJS", "Express"],
-          Java: ["Spring", "JSP"]
+          Java: ["Spring", "JSP"],
+          Kotlin:  ["Spring"],
+          Python:  ["Flask", "Django", "Selenium"],
         }
       ],
       Databases: ["DB2", "SQL Server", "Amazon RDS", "Amazon Aurora", "PostgreSQL", "MongoDB", "OracleDB"],
       Cloud: ["AWS Amazon", "Microsoft Azure"],
-      hobbies: ["Videogames", "Mangá", "Cozinhar", "Aprender coisas novas"]
     };
 
-    return res.status(201).json(userData);
+    return res.status(201).json(user);
   } catch (error) {
     return res.status(500).json({ error: "Internal Error" });
   }
 }
-app.get('/api/user', userIndex);
+app.get('/api/user', user);
 ```
 
 <div align="left">
