@@ -37,5 +37,4 @@ app.get('/api/user', user);
           </div>
         </div>
   </div>
- 
-[![trophy](https://github-profile-trophy.vercel.app/?username=knmsn)](https://github.com/ryo-ma/github-profile-trophy)
+ https://github-profile-trophy.vercel.app/?username=knmsn&row=2&column=3
