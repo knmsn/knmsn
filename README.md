@@ -38,6 +38,4 @@ app.get('/api/user', user);
         </div>
   </div>
  
-<div align="center">
-  <a href="https://github.com/knmsn" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
-</div>
+[![trophy](https://github-profile-trophy.vercel.app/?username=knmsn)](https://github.com/ryo-ma/github-profile-trophy)
