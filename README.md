@@ -3,6 +3,7 @@ async function user(req, res) {
   try {
     const user = {
       name: "Gustavo O.R",
+      portfolio: "https://knmsn.github.io/my-hub/",
       age: 23,
       stacks: [
         {
