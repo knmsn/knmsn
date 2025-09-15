@@ -1,45 +1,46 @@
-```javascript
-async function user(req, res) {
-  try {
-    const user = {
-      name: "Koenomatachi San",
-      stacks: [
-        {
-          NodeJS: ["ReactJS", "ReactNative", "NestJS", "Express"],
-          Java: ["Spring", "JSP"],
-          Kotlin:  ["Spring"],
-          Python:  ["Flask", "Django", "Selenium"],
-        }
-      ],
-      Databases: ["DB2", "SQL Server", "Amazon RDS", "Amazon Aurora", "PostgreSQL", "MongoDB", "OracleDB"],
-      Cloud: ["AWS Amazon", "Microsoft Azure"],
-    };
+# 👋 Hello, I'm Koenomatachi San  
 
-    return res.status(201).json(user);
-  } catch (error) {
-    return res.status(500).json({ error: "Internal Error" });
-  }
-}
-app.get('/api/user', user);
-```
+💻 Fullstack developer passionate about **open source**, always exploring new technologies and building scalable solutions.  
+🔭 Currently focusing on **modern architectures** and **impactful open source projects**.  
 
-<div align="left">
-        <div align="center">
-          <div>
-            <img src="https://github-readme-stats.vercel.app/api?username=knmsn&theme=vue-dark&bg_color=0B0F12&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" />
-          </div>
-          <div>
-            <img src="http://github-readme-streak-stats.herokuapp.com?user=knmsn&theme=vue-dark&background=0B0F12&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&currStreakNum=DDDDDD&sideNums=DDDDDD&include_all_commits=true&count_private=true" />
-          </div>
-          <div>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=knmsn&theme=vue-dark&bg_color=0B0F12&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" />
-          </div>
-        </div>
-  </div>
+---
 
-<div align="center">
-    <a href="https://github.com/knmsn">
-        <img src="https://github-profile-trophy.vercel.app/?username=knmsn&row=2&column=3" />
-    </a>
-</div>
+## 🚀 Tech Stack  
 
+### 🔹 Frontend
+- **JavaScript** → AngularJS | Angular | ReactJS | React Native  
+- **CSS/HTML** → Tailwind | Bootstrap | Material UI  
+
+### 🔹 Backend
+- **JavaScript/TypeScript** → NestJS | Express  
+- **Java** → Spring | JSP | Spring Boot  
+- **Python** → Flask | Django | Selenium  
+- **PHP** → Laravel | PDO  
+
+### 🔹 Databases
+DB2 | SQL Server | PostgreSQL | MongoDB | OracleDB | Amazon Aurora | Amazon RDS  
+
+### 🔹 Cloud & Infrastructure
+AWS (Amazon) | Microsoft Azure | Linux  
+
+---
+
+## 🛠️ Open Source Projects  
+
+📌 Some of my open source work:
+
+- 🔥 **[Caveira Tech Style]([https://github.com/Koenomatachi-San/Project1](https://github.com/knmsn/caveiratech-plugin-theme-firefox))** → plugin style caveira tech board.  
+- ⚡ **[Extension Developer Helper]([https://github.com/Koenomatachi-San/Project2](https://github.com/knmsn/extension-developer-helper))** → plugin to helper to developer in daily tasks. 
+
+---
+
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Koenomatachi-San&show_icons=true&theme=tokyonight" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Koenomatachi-San&layout=compact&theme=tokyonight" alt="langs" />
+</p>
+
+---
+
+✨ Always open for collaborations on interesting projects!  
