@@ -37,8 +37,8 @@ AWS (Amazon) | Microsoft Azure | Linux
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Koenomatachi-San&show_icons=true&theme=tokyonight" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Koenomatachi-San&layout=compact&theme=tokyonight" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=knmsn&show_icons=true&theme=tokyonight" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=knmsn&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
 
 ---
