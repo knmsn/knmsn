@@ -3,7 +3,6 @@ async function user(req, res) {
   try {
     const user = {
       name: "Koenomatachi San",
-      age: 23,
       stacks: [
         {
           NodeJS: ["ReactJS", "ReactNative", "NestJS", "Express"],
